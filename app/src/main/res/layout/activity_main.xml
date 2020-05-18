@@ -29,4 +29,14 @@
         android:text="执行动画"
         android:onClick="showAnim"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:onClick="toNextActivity"
+        android:text="ToNext" />
+
 </RelativeLayout>
